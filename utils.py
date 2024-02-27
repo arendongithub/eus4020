@@ -8,6 +8,7 @@ from nltk.stem import WordNetLemmatizer
 nltk.download('wordnet')
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
+nltk.download('stopwords')
 stopwords = stopwords.words('english')
 
 def tokenize(text: str) -> list:
